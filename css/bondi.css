@@ -83,3 +83,31 @@ body {
   color: var(--yellow-color);
 }
 /* end features  */
+/* start work  */
+.our-work{
+  background-color: var(--section-color);
+}
+.our-work ul .active{
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+.our-work ul li{
+  padding: 0.5rem 1rem;
+}
+.our-work ul li:not(.active):hover{
+  color: var(--red-color);
+  cursor: pointer;
+}
+.our-work .content .card-work{
+  background-color: white;
+}
+/* end work  */
+
+
+/* start blog  */
+
+.blog .row .card:hover{
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+/* end blog  */
